@@ -1,0 +1,35 @@
+Project Prompt: Clinet Blog Website
+Project Overview
+CodeCanvas is a modern, full-stack blogging platform designed for developers, tech enthusiasts, and creative writers to share their knowledge, experiences, and insights. The platform combines powerful content management with social engagement features, creating a vibrant community where users can discover, create, and interact with technical and creative content.
+
+Core Features
+User Authentication & Authorization
+Implement secure user registration and login using JWT tokens. Users should have role-based access (Admin, Author, Reader) with different permissions. Include features like email verification, password reset functionality, and OAuth integration for Google/GitHub sign-in options.
+
+Rich Content Creation
+Build a comprehensive editor supporting Markdown with live preview, syntax highlighting for code snippets across multiple programming languages, and image upload functionality. Authors can create drafts, schedule posts, and organize content using tags and categories. Include SEO-friendly URL slugs and meta descriptions for better discoverability.
+
+Dynamic Blog Management
+Create an intuitive dashboard where authors can manage their posts, view analytics (views, likes, comments), and track engagement metrics. Implement CRUD operations for blog posts with soft delete functionality, allowing content recovery if needed.
+
+Interactive Features
+Add a commenting system with nested replies, allowing threaded discussions. Include reaction buttons (like, bookmark, share), reading time estimation, and related posts suggestions based on tags and categories. Implement a search functionality with filters for categories, tags, authors, and date ranges.
+
+Responsive Design
+Design a mobile-first interface using Tailwind CSS for utility-based styling and Bootstrap components for complex UI elements. Create a clean, professional layout with dark/light theme toggle, smooth transitions, and engaging animations using CSS3 and JavaScript ES6.
+
+Backend Architecture
+Structure your Express.js server with RESTful API endpoints following best practices. Use MongoDB with Mongoose for data modeling, including schemas for Users, Posts, Comments, and Categories. Implement middleware for authentication, validation, and error handling. Set up proper environment configuration using dotenv for sensitive data.
+
+Additional Functionality
+Create a homepage featuring trending posts, latest articles, and category-wise content sections. Build author profile pages displaying their published posts, bio, social links, and follower counts. Add a newsletter subscription feature and admin panel for content moderation and user management.
+
+Technical Implementation
+Use React.js with functional components and hooks (useState, useEffect, useContext) for state management. Implement React Router for navigation and protected routes. On the backend, structure your Express routes logically (auth, posts, comments, users) with proper controller and model separation.
+
+Integrate Handlebars or Mustache for email templates (verification, password reset, notifications). Use jQuery sparingly for specific DOM manipulations where needed, but prioritize vanilla JavaScript ES6 and React for most interactions.
+
+Development Goals
+This project will demonstrate your proficiency in building scalable MERN applications, implementing secure authentication, creating RESTful APIs, designing responsive interfaces, and managing complex state across components. Deploy the application using platforms like Heroku, Vercel, or Render for the live demo.
+
+Focus on writing clean, maintainable code with proper documentation, following industry standards and best practices throughout development
