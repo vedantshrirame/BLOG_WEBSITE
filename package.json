@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "emoji-picker-react": "^4.15.0",
+    "jwt-decode": "^4.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}
